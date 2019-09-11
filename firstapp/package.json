@@ -5,12 +5,15 @@
   "main": "appc.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "node appc.js",
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "node"
   ],
   "author": "shivam",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
